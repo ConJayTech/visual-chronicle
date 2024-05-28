@@ -18,6 +18,6 @@ Learn more about this tool by reading the [Overview](overview.md)
 
 ## API Reference Docs
 
-* [User resource](docs\api\user.md)
-* [Movies resource](docs\api\movies.md)
-* [Watch History Resource](docs\api\watch-history.md)
+* [User resource](\api\user.md)
+* [Movies resource](\api\movies.md)
+* [Watch History Resource](\api\watch-history.md)
