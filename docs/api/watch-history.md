@@ -26,7 +26,7 @@ Sample `watch-history` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `user_id` | number | The user's ID |
-| `movie_id` | string | The movie's name |
+| `user_id` | number | The ID of the user resource to which this watch history is assigned |
+| `movie_id` | string | The ID of the movie resource to which this watch history is assigned |
 | `watched_date` | string | The date the user watched the movie |
 | `location` | string | The location/format/service where the movie was watched |
