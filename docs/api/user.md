@@ -37,9 +37,10 @@ The `user` resource supports these operations.
 
 ### READ (GET)
 
+* [Get all users](users-get-all)
 * [Get users by ID](users-get-user-by-id)
 * [Get users by Email](users-get-user-by-email)
-* [Get users by names](users-get-users-first-names)
+* [Get users by name](users-get-users-by-name)
 
 ### CREATE (POST)
 
@@ -47,8 +48,6 @@ The `user` resource supports these operations.
 
 ### UPDATE (PUT/PATCH)
 
-* [Update user by ID](users-update-by-id)
-* [Change user email](users-change-user-email.md)
 * [Change user property](users-change-user-property)
 
 ### DELETE
