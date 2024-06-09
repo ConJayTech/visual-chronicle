@@ -17,7 +17,7 @@ You must specify the required properties for the user.
 
 ## Request headers
 
-None
+Content-Type: application/json
 
 ## Request body
 

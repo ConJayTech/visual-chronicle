@@ -6,10 +6,12 @@ layout: page
 Base endpoint:
 
 ```shell
-{server_url}/watch-history
+{server_url}/watchHistory
 ```
 
-Contains information about the movies logged in the watch history of the service.
+Contains information about the watch history logged in the watch history of the service.
+
+To have a watch history in the service, a user must be added to the service first.
 
 ## Resource Properties
 
@@ -30,3 +32,23 @@ Sample `watch-history` resource
 | `movie_id` | string | The ID of the movie resource to which this watch history is assigned |
 | `watched_date` | string | The date the user watched the movie |
 | `location` | string | The location/format/service where the movie was watched |
+
+## Operations
+
+The `watch-history` resource supports these operations.
+
+### READ (GET)
+
+* [Get all watch history](watch-history-get-all)
+* [Get watch history by user ID](watch-history-get-by-user-id)
+* [Get watch history by movie ID](watch-history-get-by-movie-id)
+* [Get watch history by watched date](watch-history-get-by-date)
+* [Get watch history by location](watch-history-get-by-location)
+
+### CREATE (POST)
+
+* [Create watch history](watch-history-create)
+
+### DELETE
+
+* [Delete watch history by ID](watch-history-delete-by-id)

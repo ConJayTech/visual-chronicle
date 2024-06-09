@@ -28,5 +28,25 @@ Sample `movie` resource
 | ------------- | ----------- | ----------- |
 | `id` | number | The movies's unique record ID |
 | `title` | string | The movie's name |
-| `release_year` | string | The movie's release year |
+| `release_year` | number | The movie's release year |
 | `director` | string | The movie's director |
+
+## Operations
+
+The `movies` resource supports these operations.
+
+### READ (GET)
+
+* [Get all movies](movies-get-all)
+* [Get movies by title](movies-get-by-title)
+* [Get movies by ID](movies-get-movie-by-id)
+* [Get movies by release year](movies-get-movies-by-year)
+* [Get movies by director](movies-get-movies-by-director)
+
+### CREATE (POST)
+
+* [Create movie](movies-create-movie)
+
+### DELETE
+
+* [Delete movie by ID](movies-delete-movie-by-id)
