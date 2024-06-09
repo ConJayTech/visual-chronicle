@@ -6,7 +6,7 @@ layout: page
 
 This is a mock API to simulate the REST interface of an imaginary service.
 
-Visual Chronicle provides a cloud-hosted movie log through which subscribers can post movies they've seen, when they watched them, and through what format.
+Visual Chronicle provides a cloud-hosted movie log through which subscribers can post movies they've seen, when they watched them, and in what format.
 
 ## Overview
 
@@ -14,17 +14,21 @@ Learn more about this tool by reading the [Overview](overview.md)
 
 ## Quickstart
 
+First, see the [set up tutorial](tutorials/before-you-start)
+
+Once your system is set up appropriately, you can begin with these tasks, or skip to the next section for detailed tutorials.
+
+* [Add a user](api/users-create-user)
+* [Add a movie](api/movies-create-movie)
+* [Add a watch history](api/watch-history-create)
+
 ## Tutorials
 
 Learn how to do common operations within the Visual Chronicle service.
 
-First, see the set up tutorial.
-
-* Get started with the [set up tutorial](tutorials/before-you-start)
-
-Once your system is set up appropriately, continue with these common operations
-
 * [Enroll a new user](tutorials/tutorial-enroll-user)
+* [Add a new movie](tutorials/tutorial-add-movie)
+* [Post a watch history](tutorials/tutorial-add-watch-history)
 
 ## API Reference Docs
 

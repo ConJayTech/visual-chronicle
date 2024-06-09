@@ -1,14 +1,14 @@
 ---
 layout: page
 ---
-# Get all users
+# Get all movies
 
-Returns an array of [`user`](user) objects that contains all users that have registered with the service.
+Returns an array of [`movie`](movies) objects that contains all users that have registered with the service.
 
 ## URL
 
 ```shell
-{server_url}/users
+{server_url}/movies
 ```
 
 ## Params
@@ -27,20 +27,17 @@ None
 
 ```js
 [
-    {
-      "id": "1",
-      "name": "Alice Johnson",
-      "email": "alice@example.com"
+   {
+      "id": 1,
+      "title": "Inception",
+      "release_year": 2010,
+      "director": "Christopher Nolan"
     },
     {
-      "id": "2",
-      "name": "Bob Smith",
-      "email": "bob@example.com"
-    },
-    {
-      "id": "3",
-      "name": "Carol White",
-      "email": "carol@example.com"
+      "id": 2,
+      "title": "The Matrix",
+      "release_year": 1999,
+      "director": "Lana Wachowski, Lilly Wachowski"
     }
     ...
 ]
