@@ -33,16 +33,16 @@ long-term support (LTS version of the operating system).
 
 To test your development system, follow these steps:
 
-1. Create and checkout a test branch of your fork of the To-Do-service repo. Your `GitHub repo workspace` is the directory that contains your fork of the `visual chronicle` repo.
+1. Create and checkout a test branch of your fork of the Visual-Chronicle repo. Your `GitHub repo workspace` is the directory that contains your fork of the `visual chronicle` repo.
 
     ```shell
     cd <your GitHub repo workspace>
     ls
     # (see the visual chronicle directory in the list)
-    cd to-do-service
+    cd visual-chronicle
     git checkout -b tutorial-test
     cd api
-    json-server -w to-do-db-source.json
+    json-server database.json
     ```
 
     If your development system is installed correctly, you should see
