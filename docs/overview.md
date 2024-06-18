@@ -27,3 +27,6 @@ Once a user and a movie are added to the service, user's can assign a watch hist
 - [Tutorial: Post a new moie](tutorials/tutorial-add-movie)
 - [Tutorial: Add a new watch history](tutorials/tutorial-add-watch-history)
 - [API Reference Docs](index#visual-chronicle-api)
+
+
+[tabs](tabs)
