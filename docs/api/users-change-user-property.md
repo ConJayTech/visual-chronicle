@@ -11,7 +11,7 @@ The Patch request updates either one specified property or multiple in the [`use
 ## URL
 
 ```shell
-{server_url}/users/{id}
+PATCH {server_url}/users/{id}
 ```
 
 ## Method
@@ -25,7 +25,7 @@ This table lists the properties that can be updated.
 | Parameter name | Type | Description |
 | -------------- | ------ | ------------ |
 | `name` | string | The user's new name that will replace the name in the current record |
-| `email` | string | The user's new last email |
+| `email` | string | The user's new email |
 
 ## Request headers
 

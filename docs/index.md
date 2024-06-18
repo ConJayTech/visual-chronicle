@@ -16,11 +16,9 @@ Learn more about this tool by reading the [Overview](overview.md)
 
 First, see the [set up tutorial](tutorials/before-you-start)
 
-Once your system is set up appropriately, you can begin with these tasks, or skip to the next section for detailed tutorials.
+Once your system is set up appropriately, you can begin by adding an example user in this user-friendly guide, or skip to the next section for tutorials on commonon tasks in the service.
 
-* [Add a user](api/users-create-user)
-* [Add a movie](api/movies-create-movie)
-* [Add a watch history](api/watch-history-create)
+* [Add your first user to the service](tutorials/quickstart-add-user)
 
 ## Tutorials
 
