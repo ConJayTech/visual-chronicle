@@ -29,6 +29,7 @@ To enroll a new user:
         * `{base_url}` may depends on installation, but is typically `http://localhost:3000`
     * **Headers**: `Content-Type: application/json`
     * **Request body**: `raw`
+
         | Property | Description | Type | Required | Notes |
         | -------------- | ------ | ------------ |------------ |------------ |
         | name | The user's name. | string | Required |   |
